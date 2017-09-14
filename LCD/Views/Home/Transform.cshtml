@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "Number Transformation";
+}
+
+<h2>Number transformation</h2>
+
+<form asp-controller="Home" asp-action="Transform" method="get">
+    <p>
+        <input type="text" name="number"/>
+        <input type="submit" value="Convert"/>
+    </p>
+</form>
+
+<textarea disabled rows="5" cols="60" style="resize:none">
+@ViewData["Number"]
+</textarea>
