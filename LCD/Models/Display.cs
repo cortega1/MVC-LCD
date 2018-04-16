@@ -35,6 +35,7 @@ namespace LCD.Models
                 line += charNumbers[lineNumber, digit];
                 line += "   ";
             }
+
             return line;
         }
     }
